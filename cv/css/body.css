@@ -1,0 +1,109 @@
+.content {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.left {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+}
+
+.info img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.green {
+  color: #4CAF50;
+}
+
+.bold {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.career, .uni, .high {
+  margin-bottom: 3rem;
+}
+
+.right p, .left p {
+  margin: 0.8rem 0rem;
+}
+
+#tab-job {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tab-job td, #tab-job th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tab-job tr:first-child th{
+  text-align: center;
+}
+
+#tab-job tr:hover {
+  background-color: #ddd;
+}
+
+#tab-job th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.left .intro{
+  border: 1px solid gray;
+  padding: 0.2rem 0.5rem;
+  margin-top: 1rem;
+}
+
+.intro ul li {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.temp ul li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.temp ul:first-child li {
+  text-decoration: underline;
+}
+
+.temp ul:first-child{
+  margin-right: 1rem;
+}
+
+.temp ul:last-child li{
+  font-weight: normal;
+}
+
+.intro ul li a{
+  color: black;
+  font-weight: normal;
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+footer p{
+  font-size: 0.5rem;
+}
+
+.temp{
+  display: flex;
+}
