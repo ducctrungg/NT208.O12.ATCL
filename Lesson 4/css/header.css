@@ -1,0 +1,30 @@
+header{
+  text-align: right;
+}
+
+.nav-bar ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 6px 0px;
+  background-color: #555;
+}
+
+.nav-bar ul li:hover {
+  background-color: #4caf50;
+}
+
+.nav-bar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1{
+  color: #4CAF50;
+}

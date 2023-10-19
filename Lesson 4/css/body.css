@@ -1,0 +1,87 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.left {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+}
+
+.info img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.green {
+  color: #4CAF50;
+}
+
+.bold {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.career, .uni, .high {
+  margin-bottom: 3rem;
+}
+
+.right p, .left p {
+  margin: 0.8rem 0rem;
+}
+
+/*
+
+*/
+
+.left .intro{
+  border: 1px solid gray;
+  padding: 0.4rem 0.7rem;
+  margin: 1rem 0.5rem;
+}
+
+.intro ul li {
+  margin: 0.5rem 0rem 0rem 2rem;
+  font-weight: bold;
+}
+
+.basic ul li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.basic ul:first-child{
+  text-decoration: underline;
+  margin-right: 2rem;
+}
+
+.basic ul li {
+  margin-bottom: 1rem;
+}
+
+.basic ul:last-child li{
+  font-weight: normal;
+}
+
+.intro ul li a{
+  color: black;
+  font-weight: normal;
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+footer p{
+  font-size: 0.5rem;
+}
+
+.basic{
+  display: flex;
+}
